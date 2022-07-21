@@ -1,0 +1,9 @@
+touch .gitignore
+git config --global user.email "kumarnishu82@gmail.com"
+git config --global user.name kumar nishant
+git init
+git add .
+git commit -m "commit message"
+git status #just to see if working tree is clean, if yes go ahead
+git remote add origin "repository ssh url"
+git push origin master
